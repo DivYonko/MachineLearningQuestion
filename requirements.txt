@@ -1,0 +1,22 @@
+Core application and UI
+gradio==3.50.2
+python-dotenv==1.0.1
+
+LlamaIndex core and integrations (compatible set)
+llama-index-core==0.10.50
+llama-index-vector-stores-chroma==0.1.8
+llama-index-embeddings-gemini==0.1.7
+llama-index-llms-gemini==0.1.7
+
+Vector Database
+chromadb==0.4.24
+
+Document Parsers
+unstructured[local-inference]==0.13.2
+docx2txt==0.8
+pypdf==4.2.0
+
+Machine Learning and Embeddings
+torch==2.2.1
+sentence-transformers==2.7.0
+google-generativeai==0.5.4
